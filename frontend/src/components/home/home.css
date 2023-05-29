@@ -1,0 +1,169 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-container > div {
+  padding: 10px;
+  width: 100%;
+  flex-grow: 4;
+} 
+
+.label-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.label-container > div {
+  flex: 3;
+  padding: 20px;
+  width: 100%;
+}   
+
+.label-container > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.flex-submit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-submit > div {
+  padding: 10px;
+} 
+
+#id_language {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+#id_language input[type="checkbox"] {
+    display: none;
+}
+  
+#id_language span {
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid #DEE1E5;
+  background: #E9ECEF;
+  border-radius: 3px;
+  color: #6C6C6D;
+}
+
+#id_language label {
+  place-self: center;
+}
+  
+#id_language input[type="checkbox"]:checked + span {
+  border: 2px solid #2586E6;
+  color: #6C6C6D;
+}
+
+.engi_table_head{
+  text-align: center;
+  border: #2586E6;
+  background: #2586E6;
+  color: #E9ECEF
+}
+
+.exp-textbox{
+  width: 30px;
+}
+
+.label-text {
+  padding: 10px;
+}
+
+.label-tag-text {
+  padding: 30px;
+}
+
+input {
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+
+.search-textbox{
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 800px
+}
+
+.icon-grp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link{
+  padding: 0;
+}
+
+td{
+  text-align: center;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .main-container > div {
+    padding: 5px;
+    width: 100%;
+    flex-grow: 1;
+    font-size: 14px;
+  }
+
+  .label-container {
+    flex-direction: column;
+  }
+
+  .label-container > div {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  #id_language {
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #id_language span {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .engi_table_head {
+    font-size: 14px;
+  }
+  .label-text {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .label-tag-text {
+    padding: 10px;
+    font-size: 14px;
+  }
+  input {
+    font-size: 14px;
+  }
+  .search-textbox {
+    width: 100%;
+  }
+}

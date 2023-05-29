@@ -1,0 +1,129 @@
+/* body{
+    background: #ffffff;  
+}
+
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+   */
+  /* * {
+    box-sizing: inherit;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+  } */
+
+  /* .App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  } */
+
+  /* .container-fluid, .form-container{
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    margin-right: auto !important;
+    width: 50% !important;
+    margin-left: auto !important;
+    background: #dbdbdb !important;
+    margin-top: 10% !important;
+    border-radius: 5px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+    padding: 3% !important;
+  } */
+
+  /* .form-container{
+    color: white;
+    padding: 2rem 4rem;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    border-radius: 10px;
+    background-color: #1f1e1f;
+    width: fit-content;
+  }
+  
+  .ToastContainer{
+    background-color: white !important;
+  }
+  
+  .formBtn {
+    border-radius: 4px;
+    background-color: #8f8f8f;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .formBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .formBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+  }
+  
+  .formBtn:hover span {
+    padding-right: 25px;
+  }
+  
+  .formBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .form-container .forgot-password{
+    margin-left: auto !important;
+  }
+  
+  .form-container .input-group .remember-check {
+    margin-right: 4px !important;
+  }
+
+  .cardbg{
+    background-color:solid #f4f6fb;
+    box-shadow: 5em #8f8f8f;
+  }
+
+  .modal-90w{
+    width: 100% !important;
+  }
+
+   */
