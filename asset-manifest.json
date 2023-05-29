@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Skillset_All_old2/static/css/main.08de653d.css",
+    "main.js": "/Skillset_All_old2/static/js/main.52c8ebca.js",
+    "static/js/787.cda612ba.chunk.js": "/Skillset_All_old2/static/js/787.cda612ba.chunk.js",
+    "index.html": "/Skillset_All_old2/index.html",
+    "main.08de653d.css.map": "/Skillset_All_old2/static/css/main.08de653d.css.map",
+    "main.52c8ebca.js.map": "/Skillset_All_old2/static/js/main.52c8ebca.js.map",
+    "787.cda612ba.chunk.js.map": "/Skillset_All_old2/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08de653d.css",
+    "static/js/main.52c8ebca.js"
+  ]
+}
