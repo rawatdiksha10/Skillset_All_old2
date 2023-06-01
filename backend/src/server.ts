@@ -26,10 +26,11 @@ const mongoDBstore = new MongoDBStore({
 
 app.use(
   cors({
-    allowedHeaders: ['Content-Type','Authorization'],
-    origin: "http://localhost:3000",
+    allowedHeaders: ['Content-Type','Authorization',],
+    origin: "https://rawatdiksha10.github.io",
+    // origin: "http://localhost:3000",
     methods: ["GET","POST","PUT","DELETE","OPTIONS","HEAD"],
-    credentials: true
+    credentials: true,
   })
 );
 
