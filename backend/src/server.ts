@@ -29,7 +29,8 @@ app.use(
     allowedHeaders: ['Content-Type','Authorization'],
     origin: "https://rawatdiksha10.github.io",
     methods: ["GET","POST","PUT","DELETE","OPTIONS","HEAD"],
-    credentials: true
+    credentials: true,
+    
   })
 );
 
